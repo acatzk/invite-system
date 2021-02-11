@@ -9,8 +9,8 @@ const Login = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex min-h-screen">
-        <div div className="container m-auto max-w-none sm:max-w-md h-screen sm:h-auto bg-white rounded-none sm:rounded-lg shadow">
-          <div className="px-6 flex flex-col">
+        <div className="container m-auto max-w-none sm:max-w-md h-screen sm:h-auto bg-white rounded-none sm:rounded-lg shadow">
+          <div className="px-6 flex flex-col">  
             <div className="mt-5 flex-shrink-0 flex justify-center">
               <img className="h-72" src="/images/logo.png" alt="avatar" />
             </div>
@@ -37,15 +37,15 @@ const Login = () => {
                 </div>
               </div>
               <div>
-                <Link href="/forgot-password" className="text-sm text-gray-500 hover:underline">
-                  <a>Forgot password?</a>
+                <Link href="/forgot-password">
+                  <a className="text-sm text-gray-500 hover:underline">Forgot password?</a>
                 </Link>
               </div>
               <div className="space-y-2">
                 <button className="flex items-center justify-center text-sm font-medium w-full tracking-wide bg-green-500 py-2 border-none text-white rounded hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 uppercase on ease-in-out duration-200">
                   Login
                 </button>
-                <Link href="/registration">
+                <Link href="/register">
                   <a className="inline-block text-center text-sm font-medium w-full border border-green-500 py-2 text-green-500 rounded focus:ring-2 focus:ring-offset-2 focus:ring-green-500 uppercase hover:bg-green-50 focus:outline-none transiton ease-in-out duration-200">Create account</a>
                 </Link>
                 <Link href="/forgot-password">
